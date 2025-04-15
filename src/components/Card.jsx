@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className="w-90 bg-[#F5F2F2] rounded-3xl overflow-hidden">
+    <div className="bg-[#F5F2F2] rounded-3xl overflow-hidden">
       <img src="/waffles.png" className="w-full h-53 object-cover" alt="Waffles" />
 
       <div className="p-4">
