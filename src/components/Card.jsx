@@ -1,10 +1,10 @@
-const Card = () => {
+const Card = ({title ,img}) => {
   return (
     <div className="bg-[#F5F2F2] rounded-3xl overflow-hidden">
-      <img src="/waffles.png" className="w-full h-53 object-cover" alt="Waffles" />
+      <img src={img} className="w-full h-53 object-cover" alt={title} />
 
       <div className="p-4">
-        <h3 className="font-bold text-2xl mb-4">Waffles</h3>
+        <h3 className="font-bold text-2xl mb-4">{title}</h3>
         <p className="text-xl mb-5">
           lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam
           lectus, sit amet ipsum faucibus
