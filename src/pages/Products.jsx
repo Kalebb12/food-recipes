@@ -20,8 +20,8 @@ const Products = () => {
       }
 
       {data?.products &&
-        data.products.map((recipe) => {
-          return <Card img={recipe.image} title={recipe.name} />;
+        data.products.map((product) => {
+          return <Card img={product.image} title={product.name} />;
         })}
     </div>
   );
