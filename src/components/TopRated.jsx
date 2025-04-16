@@ -26,6 +26,7 @@ const TopRated = () => {
           })
         }
       </div>
+
     </section>
   );
 };
